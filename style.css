@@ -2,3 +2,9 @@ body {
   text-align: center;
   font-family: 'Comic Sans MS';
 }
+.parent {
+  text-align: center;
+}
+.parent > ul {
+  display: inline-block;
+}
